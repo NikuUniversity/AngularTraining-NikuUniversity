@@ -165,3 +165,21 @@ main {
     margin-block: 1.5rem;
   }
 }
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  background-color: #eee;
+}
